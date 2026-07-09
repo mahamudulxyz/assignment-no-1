@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Inter", sans-serif;
+
+}
 /* nav start */
 header{
     padding: 10px 65px;
@@ -6,7 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: auto;
+    
 }
 
 .nav-text ul{
@@ -19,4 +34,119 @@ nav{
     cursor: pointer;
 }
 /* nav end */
+/* register-btn */
+.register-btn{
+    border: none;
+    border-radius: 8px;
+    background: #2563EB;
+    color: white;
+    cursor: pointer;
+    
+
+}
+/* nav-btn */
+.nav-btn{
+    padding: 12px 24px;
+    font-size: 16px;
+}
+/* hero section */
+.hero{
+    background-image: url(/assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+
+    height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+.hero h1{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.hero p{
+    font-size: 18px;
+    width: 650px;
+    line-height: 32px;
+    margin-bottom: 60px;
+    
+}
+.hero-btn{
+
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 200px;
+    
+}
+/* speakers */
+.speakers{
+    padding: 80px 65px;
+
+}
+.speakers h2{
+    text-align: center;
+    margin-bottom: 50px;
+
+    font-size: 48px;
+}
+.speakers-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+
+}
+.speakers-card{
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+
+}
+.speakers-card img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    display: block;
+/* .speakers-card img{ */
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    display: block;
+    
+}
+.speakers-card h3{
+    font-size: 20px;
+    padding-left: 15px;
+    margin-top: 3px;
+
+
+}
+.speakers-topic{
+    color: #2563EB;
+    font-size: 12px;
+    padding-left: 15px;
+    font-weight: 600;
+
+
+}
+.speakers-position{
+     font-size: 14px;
+     color:#575757;
+     padding-left: 15px;
+     margin-top: 3px;
+
+    
+
+}
 
