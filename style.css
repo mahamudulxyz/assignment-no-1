@@ -324,4 +324,110 @@ nav{
     background: #2563EB;
     color: #FFFFFF;
 }
+/* missing part css  */
+.schedule-section{
+    width: 1200px;
+    margin: 100px auto;
+}
 
+.schedule-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.schedule-header h2{
+    font-size: 48px;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+}
+
+.schedule-header p{
+    font-size: 16px;
+    color: #888888;
+}
+
+.schedule-card{
+    display: flex;
+    gap: 40px;
+    padding: 35px;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+
+.schedule-day{
+    width: 180px;
+}
+
+.schedule-day h3{
+    font-size: 28px;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+}
+
+.schedule-day span{
+    font-size: 14px;
+    color: #2563EB;
+    font-weight: 600;
+}
+
+.schedule-content{
+    flex: 1;
+}
+
+.schedule-item{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.schedule-time{
+    width: 120px;
+}
+
+.schedule-time h4{
+    font-size: 16px;
+    color: #2563EB;
+}
+
+.schedule-info h4{
+    font-size: 20px;
+    color: #0D1B2A;
+    margin-bottom: 6px;
+}
+
+.schedule-info p{
+    font-size: 14px;
+    color: #666666;
+}
+
+.schedule-content hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+
+@media (max-width:768px){
+
+    .schedule-section{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .schedule-card{
+        flex-direction: column;
+    }
+
+    .schedule-item{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .schedule-day{
+        width: 100%;
+    }
+
+}
+/* complite missing task */
