@@ -58,7 +58,7 @@ nav{
 }
 /* hero section */
 .hero{
-    background-image: url(/assets/banner.jpg);
+    background-image: url(./assets/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -180,7 +180,6 @@ nav{
 
 .card{
     width: 370.67px;
-    height: 444px;
     padding: 32px;
     border-radius: 16px;
 }
