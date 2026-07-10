@@ -6,8 +6,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    
 
+}
+.max-width{
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
 body{
     font-family: "Inter", sans-serif;
@@ -21,6 +26,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     
 }
 
@@ -41,6 +47,7 @@ nav{
     background: #2563EB;
     color: white;
     cursor: pointer;
+    justify-content: space-between;
     
 
 }
@@ -56,9 +63,9 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 80px;
-
-    height: 650px;
-
+    height: 100vh;
+    width: 100%;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +92,9 @@ nav{
     padding: 15px 30px;
     font-size: 16px;
     font-weight: 500;
-    margin-top: 200px;
+    margin-top: 300px; 
+    
+    
     
 }
 /* speakers */
@@ -102,27 +111,25 @@ nav{
 .speakers-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    gap: 20px;
 
 }
 .speakers-card{
     background: white;
     border-radius: 16px;
-    padding: 20px;
+    padding: 0px 0px 20px ;
     border: 1px solid #E5E7EB;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
-    overflow: hidden;
+
 
 }
 .speakers-card img{
     width: 100%;
-    border-radius: 16px 16px 0 0;
+    border-radius: 16px 16px 0 0; */
     display: block;
-/* .speakers-card img{ */
-    width: 100%;
-    border-radius: 16px;
-    padding: 20px;
-    display: block;
+    height: auto;
+
+
     
 }
 .speakers-card h3{
