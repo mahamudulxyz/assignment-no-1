@@ -88,7 +88,7 @@ nav{
     font-size: 18px;
     width: 650px;
     line-height: 32px;
-    margin-bottom: 60px;
+    margin-bottom: 300px;
     
 }
 .hero-btn{
@@ -96,10 +96,8 @@ nav{
     padding: 15px 30px;
     font-size: 16px;
     font-weight: 500;
-    margin-top: 300px; 
-    
-    
-    
+
+
 }
 /* speakers */
 .speakers{
