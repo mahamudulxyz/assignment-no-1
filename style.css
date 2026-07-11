@@ -74,6 +74,9 @@ nav{
     
 
 }
+.hero-italic{
+    font-style: italic;
+}
 .hero h1{
     font-size: 65px;
     font-weight: bold;
